@@ -4,7 +4,7 @@ const { default: mongoose } = require('mongoose');
 const route = require('./routes/route.js');
 const app = express();
 
-mongoose.connect("mongodb+srv://mdyousuf9007:5pshKMUEKE9DQzgX@cluster0.0ldwd.mongodb.net/yousuf9007-db", {
+mongoose.connect("mongodb+srv://mdyousuf9007:yousuf9007@cluster0.0ldwd.mongodb.net/yousuf9007-db", {
     useNewUrlParser: true
 })
 .then(() => console.log('mongodb running and connected'))
